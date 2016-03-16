@@ -1,0 +1,302 @@
+
+html {
+  font-size: 62.5%; 
+}
+
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  	line-height: 1.6;
+  	font-weight: 400;
+  	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	color: #222
+}
+
+h3 {
+  font-size: 1.8em;
+  color: #000000;
+  text-align: center;
+}
+
+p {
+  color: #a5a4a4;
+  line-height: 1.8em;
+}
+
+.div-clear {
+  clear: left;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 970px;
+  padding: 0 1.5em;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+#top-button {
+  background-color: #000000;
+  border: none;
+  color: #ffffff;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  padding: 0.8em;
+  margin-top: 0.8em;  
+  float: right;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #000000;
+  border: none;
+  color: #ffffff;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  padding: 0.8em; 
+  cursor: pointer;
+}
+
+/* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+nav#menu-bar {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #000000;
+  padding: 1.2rem;
+  text-align: center;
+  max-height: 5rem;
+  min-height: 3rem;
+}
+
+#menu-bar ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+#menu-bar ul li {
+  float: left;
+  padding-right: 8rem;
+   
+}
+
+#menu-bar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  
+}
+
+/* Hero Area
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#hero-area {
+  background: url("home.jpeg");
+  background-size: cover;
+  height: 698px;
+}
+
+#hero-text {
+  padding-top: 12em;
+  text-align: right;
+}
+
+#hero-text h1 {
+  font-size: 2.4em;
+}
+
+#hero-text p {
+  font-size: 1.4em;
+}
+
+/* About
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#about {
+  padding: 0.5em 0 5em 0;
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+.service-category {
+  max-width: 470px;
+  float: left;
+  padding-left: 1em; 
+}
+
+#avatar {
+  display: block;
+  margin: 0 auto;
+  max-height: 10em;
+  min-height: 8em;
+  margin-top: -1.2em;
+}
+
+.service-image {
+  display: block;
+  margin: 0 auto;
+  min-height: 5em;
+  max-height: 8em;
+}
+
+
+.transition-btn {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Portfolio
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#portfolio {
+  padding: 0.5em 0 1.5em 0;
+  background-color: #eeeeee;
+  background-size: cover;
+}
+
+#pf-buttons {
+  padding-top: 2.5em;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.portfolio-category {
+  background-color: #000000;
+  border: none;
+  color: #ffffff;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  padding: 0.8em; 
+  cursor: pointer;
+}
+
+#gallery {
+  padding-top: 1.8em;
+  padding-bottom: 2em;
+}
+
+#gallery img {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+
+.gallery-img {
+  border: 1px solid #dddddd;
+  width: 160px;
+  height: 160px;
+  display: inline-block;
+  margin-left: 38px;
+  margin-right: 38px;
+  margin-top: 40px;
+}
+
+/* Contact
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#contact {
+  margin-bottom: 50px;
+}
+
+.contact-icon {
+  height: 38px;
+  width: 38px;
+}
+
+#contact-form {
+  padding-top: 1.3em;
+}
+
+#contact-mode {
+  margin-top: 40px;
+}
+
+.contact-details {
+  font-size: 1em;
+  margin-top: -0.5em;
+}
+
+.mode-category {
+  margin-bottom: 1.8em;
+}
+
+textarea {
+  width: 100%;
+  max-width: 420px;
+  height: 227px;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  border: 0.12em solid #dfdfdf;
+  padding-left: 2em;
+  padding-top: 1.5em;
+  padding-right: -2em;
+}
+
+.field {
+  width: 420px;
+  height: 50px;
+}
+
+input[type=text] {
+  padding-left: 2em;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+input[type=text]:focus {
+    border: 3px solid #dfdfdf;
+}
+
+input[type=submit] {
+  height: 35px;
+  background-color: #000000;
+  border: none;
+  color: #ffffff;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0.5em; 
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#site-footer {
+  margin-top: 50px;
+  background-color: #dfdfdf;
+  height: 75px;
+  width: 100%;
+  border-top: 3px solid #000000;
+}
+
+.media-icons {
+  height: 35px;
+  width: 35px;
+}
+
+#social-media {
+  float: right;
+  display: inline;
+}
+
+#social {
+  list-style-type: none;
+}
+
+#social li {
+ display: inline;
+ padding-left: 1.8em; 
+
+}
+
+#site-footer p {
+  margin-top: 1.5em;
+  display: inline;
+  text-align: right;
+  float: left;
+  color: #000000;
+}
+
